@@ -1,3 +1,5 @@
+#Cria um arquivo TXT automáticamente utilizando o Python "puro"
+
 fileName = input("Insert the file name: ")
 fileName = '../' + fileName + '.txt'
 arq1 = open(fileName,"w")
