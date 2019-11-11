@@ -27,3 +27,15 @@ lista = [47,11,42,13]
 
 red = reduce(soma,lista)
 print(red)
+
+# Filtra todos os elemetos de uma sequência que retornam true
+
+def verificaPar(num):
+    if num%2==0:
+        return True
+    else:
+        return False
+
+lista = [0,1,2,3,4,5,6,7,8,9,10]
+test = filter(verificaPar,lista)
+print(list(test))
