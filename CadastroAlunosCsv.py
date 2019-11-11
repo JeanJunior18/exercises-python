@@ -1,4 +1,5 @@
-#Falta deparar os arquivos das listas que ficam salvas no arquivo CSV
+# O código receve o nome, idade e as notas dos alunos e salva em um arquivo csv
+# Será implmentado em breve um jeito de enviar o status do aluno (Aprovado/Reprovado)
 
 dados = {'Nome': None,'Idade': None, 'Média': None}
 alunos = []
